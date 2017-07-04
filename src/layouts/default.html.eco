@@ -7,12 +7,12 @@
   <meta name="viewport" content="width=device-width"/>
     <%- @getBlock("meta").toHTML() %>
     <%- @getBlock("styles").toHTML() %>
-	<%- @getBlock("styles").add(["/styles/bootstrap.css"]).toHTML() %>
-	<%- @getBlock("styles").add(["/styles/carousel.css"]).toHTML() %>
-	<%- @getBlock("styles").add(["/styles/doc.css"]).toHTML() %>
-	<%- @getBlock("styles").add(["/styles/fonts/font-awesome.css"]).toHTML() %>
-	<%- @getBlock("styles").add(["/styles/set2.css"]).toHTML() %>
-	<%- @getBlock("styles").add(["/styles/style1.css"]).toHTML() %>
+	<%- @getBlock("styles").add(["styles/bootstrap.css"]).toHTML() %>
+	<%- @getBlock("styles").add(["styles/carousel.css"]).toHTML() %>
+	<%- @getBlock("styles").add(["styles/doc.css"]).toHTML() %>
+	<%- @getBlock("styles").add(["styles/fonts/font-awesome.css"]).toHTML() %>
+	<%- @getBlock("styles").add(["styles/set2.css"]).toHTML() %>
+	<%- @getBlock("styles").add(["styles/style1.css"]).toHTML() %>
 	<%- @getBlock("styles").add(["https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"]).toHTML() %>
 	
 
@@ -86,19 +86,19 @@
   <%- @content %>
   <%- @getBlock("scripts").toHTML() %>
   
-<%- @getBlock("scripts").add(["/scripts/jquery.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/bootstrap.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/dcjqaccordion.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/main.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/owlcarousel.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/filterizr.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/controls.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/owlcust.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/carousel.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/classie.js"]).toHTML() %>		
+<%- @getBlock("scripts").add(["scripts/jquery.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/bootstrap.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/dcjqaccordion.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/main.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/owlcarousel.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/filterizr.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/controls.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/owlcust.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/carousel.js"]).toHTML() %>
+<%- @getBlock("scripts").add(["scripts/classie.js"]).toHTML() %>		
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBXtEityk-n68YWFy-ImXYw7obLsrEAm8&callback=initMap" type="text/javascript"></script>		
-<%- @getBlock("scripts").add(["/scripts/easymap.js"]).toHTML() %>
-<%- @getBlock("scripts").add(["/scripts/script.js"]).toHTML() %>		
+<%- @getBlock("scripts").add(["scripts/easymap.js"]).toHTML() %>
+<%- @getBlock("scripts").add([/scripts/script.js"]).toHTML() %>		
 </body>
 
 
